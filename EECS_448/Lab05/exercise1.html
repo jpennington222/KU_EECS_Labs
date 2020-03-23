@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p>Queries used to create tables</p><br>
+    <p>
+    CREATE TABLE Users
+    (
+    user_id varchar(255) NOT NULL,
+    Primary Key(user_id)
+    );
+
+    CREATE TABLE Posts
+    (
+    post_id int NOT NULL AUTO_INCREMENT,
+    content text NOT NULL,
+    author_id varchar(255) NOT NULL,
+    PRIMARY KEY(post_id),
+    FOREIGN KEY(author_id) REFERENCES Users(user_id)
+    );</p>
+  </body>
+</html>
+CREATE TABLE Users
+(
+user_id varchar(255) NOT NULL,
+Primary Key(user_id)
+);
+
+CREATE TABLE Posts
+(
+post_id int NOT NULL AUTO_INCREMENT,
+content text NOT NULL,
+author_id varchar(255) NOT NULL,
+PRIMARY KEY(post_id),
+FOREIGN KEY(author_id) REFERENCES Users(user_id)
+);

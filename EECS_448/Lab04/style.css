@@ -1,0 +1,129 @@
+img
+{
+  width: 300px;
+  height: 300px;
+}
+
+table
+{
+  margin: auto;
+  text-align: center;
+}
+
+h1
+{
+  text-align: center;
+  font-family: 'Sofia';
+  font-size: 60pt;
+  color: sienna;
+  text-shadow:
+		/* -0.5px -0.5px 0 #000,
+		0.5px -0.5px 0 #000, */
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.textbox
+{
+  width: 100px;
+  height: 20px;
+}
+
+td
+{
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-style: oblique;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.selling
+{
+  text-decoration: underline;
+}
+
+p
+{
+  font-size: 25pt;
+  font-family: 'Sofia';
+  text-decoration: underline;
+  color: sienna;
+}
+
+.ship
+{
+  font-size: 20pt;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 200;
+}
+
+p.welcome
+{
+  font-style: oblique;
+  font-size: 30pt;
+  font-weight: 200;
+  text-decoration: none;
+  text-align: center;
+}
+
+p.info
+{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-style: oblique;
+}
+
+.box
+{
+  border-radius: 25px;
+  margin: auto; border: 3px solid deepskyblue;
+  box-sizing: content-box;
+  width: 1000px;
+  height: 390px;
+}
+
+table.receipt, tr.receipt, td.receipt, th.receipt
+{
+  border: 2px solid black;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-style: oblique;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.receipt.number
+{
+  background-color: #F4E3C8;
+}
+
+.receipt.text
+{
+  background-color: #C8F0F4;
+}
+
+.receipt.total
+{
+  background-color: #BAE0B6;
+  font-weight: bolder;
+}
+
+.buttons
+{
+  padding: 10pt 25px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 12px;
+  border-color: gray;
+  border-width: 2px;
+}
+
+.buttons:hover
+{
+  box-shadow: 2px 2px 1px grey;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script type="text/javascript" src="formChecker.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <h1> J.P.'s Home Decor</h1><br>
+    <meta charset="utf-8">
+    <title>JP's Home Decor</title>
+  </head>
+  <body>
+    <form action="customerBackend.php" onsubmit="return check()" method="post">
+
+      <div class="box">
+      <table>
+        <tr>
+          <td class="selling">Set of 4 Chairs: $150.00</td>
+          <td class="selling">Table Lamp: $30.00</td>
+          <td class="selling">Bookshelf: $100.00</td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="chairs.jpg"/></td>
+          <td><img src="lamp.jpg"/></td>
+          <td><img src="book.jpg"/></td>
+        </tr>
+        <tr>
+          <td>Quantity   <input type="number" id="item1" min="0" name="chair" class="textbox"/>
+          <td>Quantity   <input type="number" id="item2" min="0" name="lamp" class="textbox"/>
+          <td>Quantity   <input type="number" id="item3" min="0" name="book" class="textbox"/>
+        </tr>
+      </table></div>
+
+        <p>Shipping</p>
+        <div class="ship">
+          <input type="radio" name="shipping" value="0" id="Shipping" checked> Free 7 Day<br>
+          <input type="radio" name="shipping" value="50" id="Shipping"> $50.00 Overnight<br>
+          <input type="radio" name="shipping" value="5" id="Shipping"> $5.00 3 Day<br><br>
+
+
+        Email/Username: <input type="text" name="user" id="user"><br>
+        Password: <input type="password" name="pass" id="pass"><br><br></div>
+
+        <input type="submit" value="Submit" class="buttons">
+        <input type="reset" value="Reset" name="Reset" class="buttons">
+      </form>
+  </body>
+</html>

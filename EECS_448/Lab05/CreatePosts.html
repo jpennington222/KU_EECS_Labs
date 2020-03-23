@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create Post</title>
+  </head>
+  <body>
+    <form action="CreatePosts.php" method="post" onsubmit="return check()">
+    Username: <input type="text"  name="user" id="user"><br>
+    Post: <input type="text"  name="content" id="content"><br>
+    <button>Submit</button>
+    <script>
+      function check()
+      {
+        var Username = document.getElementById("user").value;
+        var Content = document.getElementById("content").value;
+        if(Username == "" || Content == "")
+        {
+          alert("Empty Field");
+          return(false);
+        }
+        else
+        {
+          return(true);
+        }
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+body
+{
+  background-color: Gainsboro;
+  background-image: url(jayhawk.png);
+  background-repeat: repeat-x;
+  background-size: auto;
+  background-position: 50% 20%;
+  background-attachment: local;
+}
+
+img.profile
+{
+  display: block;
+  height: 400px;
+  width: 325px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid white;
+}
+
+h1
+{
+  text-align: center;
+  font-family: "Palatino Linotype";
+  color: steelblue;
+  font-size: 50pt;
+  font-weight: bold;
+  background-color: white;
+  border: 10px solid steelblue;
+}
+
+h2
+{
+  text-align: left;
+  font-family: "Palatino Linotype";
+  color: goldenrod;
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+h3
+{
+  text-align: left;
+  font-family: "Palatino Linotype";
+  color: firebrick;
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+h4
+{
+  text-align: left;
+  font-family: "Palatino Linotype";
+  color: darkgreen;
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+p1
+{
+  font-family: arial;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: 18pt;
+}
+
+button
+{
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 20px;
+  font-family: cursive;
+  color: black;
+}
+
+button.blue_button:hover
+{
+  background-color: mediumblue;
+  border: dashed;
+  border-color: sandybrown;
+  color: white;
+  font-weight: bold;
+}
+
+button.orange_button:hover
+{
+  background-color: firebrick;
+  border: dashed;
+  border-color: lightblue;
+  color: white;
+  font-weight: bold;
+}
+
+button.green_button:hover
+{
+  background-color: seagreen;
+  border: dashed;
+  border-color: black;
+  color: white;
+  font-weight: bold;
+}

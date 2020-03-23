@@ -1,0 +1,67 @@
+h1
+{
+  font-family: "palatino linotype";
+  font-weight: bold;
+  color: black;
+  font-size: 30pt;
+  margin: auto;
+  text-align: center;
+}
+
+h2
+{
+  font-family: "palatino linotype";
+  color: black;
+  font-size: 15pt;
+  margin: auto;
+  text-align: center;
+}
+
+h2.school
+{
+  font-family: "palatino linotype";
+  color: black;
+  font-size: 15pt;
+  top: 14%
+}
+
+h2.major
+{
+  font-family: "palatino linotype";
+  color: black;
+  font-size: 15pt;
+  top: 18%
+}
+
+h2.email
+{
+  font-family: "palatino linotype";
+  color: black;
+  font-size: 15pt;
+  top: 22%;
+}
+
+h3
+{
+  font-family: "palatino linotype";
+  color: black;
+  font-size: 15pt;
+  text-decoration: underline;
+}
+
+ul
+{
+  list-style-type: square;
+  font-family: "palatino linotype";
+}
+
+a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}

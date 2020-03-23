@@ -1,0 +1,6 @@
+1) When checking peekFront(), it does not return the first entry. It looks at the back of the queue.
+2) dequeue() is void. Therefore, it does not return the value that was dequeued.
+3) dequeue() is removing the entries from the back, not the front.
+4) There are memory leaks when trying to delete a queue that is not empty. Either the destructor or dequeue() is not working correctly
+
+Overall, the queue is behaving like a stack.

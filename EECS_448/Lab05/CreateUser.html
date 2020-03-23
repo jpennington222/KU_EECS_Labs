@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create Users</title>
+  </head>
+  <body>
+    <form action="CreateUser.php" method="post" onsubmit="return check()">
+    Enter New Username: <input type="text"  name="user" id="user"><br>
+    <button>Submit</button>
+    <script>
+      function check()
+      {
+        var Username = document.getElementById("user").value;
+        if(Username == "")
+        {
+          alert("Empty Username");
+          return(false);
+        }
+        else
+        {
+          return(true);
+        }
+      }
+      </script>
+  </body>
+</html>
