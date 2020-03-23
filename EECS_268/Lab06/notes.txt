@@ -1,0 +1,45 @@
+Grammars are formally defined as a tuple (N, sigma, P,S)
+
+N - finite set of nonterminal symbols
+Sigma - finite set of terminal symbols
+P - finite set of production rules
+S - start symbol
+
+One begins with a string consisting on only a start symbol
+Production rules are then applied in any order until a string that contains neither a start symbol nor nonterminal symbol is produced
+
+S -> aSb -> a^nb^n
+
+Start = Question (head/left hand side)
+Body = what OBJECT is ADJECTIVE (OBJECT and ADJECTIVE are nonterminal)
+    OBJECT is replaced by one of the OBJECT words (random)
+    ADJECTIVE is replaced by one of the ADJECTIVE words (random)
+    Answer does not need to make sense
+    Total of 20 different strings
+
+std::vector
+
+Vectors are sequence containers representing arrays that can change in size
+    Elements in sequence container containers are ordered in a strict linear sequence
+    Individual elements are accessed by their position in sequence
+    #include <vector>
+
+Use rand() to get a random number
+    Index of vector
+
+Terminal = lower case
+Nonterminal = upper case
+Start = question
+
+Grammar and Executive classes
+
+Grammar 1)question.getTerminal() 2)answer.getTerminal() 3)question.getNonT() 4)answer.getNont() 5)start.getStart()
+
+Accelerated C++ by Andrew Koeing section 7.4
+
+Do not read in Grammar files at runtime
+
+Start == first line
+
+Print Question, object, and then adjective and then the lower case things for question
+Print Answer, All capitol words, and then all lower case words
