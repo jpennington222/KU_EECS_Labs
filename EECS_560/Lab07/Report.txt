@@ -1,0 +1,11 @@
+1. It is advantageous to use priority heaps in hospital management because it is a useful tool to see which patient should be treated next.
+   This data structure makes accessing the highest priority patients easy and effective so that they can be treated before lower priority patients.
+   This data structure also makes seeing which doctors are available easy and effective.
+
+2. Some other features that would be added to make this system applicable in a real-world setting would be to have the patient's general condition saved.
+   This could affect the priority. For example, a 16 year old with a broken arm is less severe than a 80 year old with a broken arm. Another feature is
+   to have each doctor have his or her own heap to manage his or her patients. This would allow the doctor to see which patients need help the soonest.
+
+3. To apply priority heaps to product recommendations, the most liked recommendation should be given the highest priority. If this were the case, buyers
+   could quickly see what the most viewed and liked reviews are before purchasing the product. This would give the buyer the most useful information when
+   searching for a product to purchase.

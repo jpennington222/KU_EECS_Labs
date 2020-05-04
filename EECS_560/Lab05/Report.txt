@@ -1,0 +1,18 @@
+1. Observe your output for quadratic probing and double hashing and compare the performance of both techniques for the build and find operations.
+
+  When looking at multiple runs of the program, the quadratic probing technique outperforms the double hashing technique for build time but double hashing outperforms
+  the quadratic probing technique when finding values. When the input size is small, the two techniques are about equal. However, after set 2, quadratic probing
+  tends to be faster by 0.01 seconds because it only has to evaluate one function instead of two for double hashing. On the other hand, both techniques find
+  similar amounts of values. Depending on the input size, double hashing outperforms quadratic probing. If the K value were increased, double hashing would perform better overall
+  because it is easier to compute the second hash function than compute the i*i value.
+
+2. Which hashing technique performs better when searching and why?
+
+  Overall, double hashing tends to find more values than the quadratic probing technique. This may be the case because quadratic probing leads to secondary clustering.
+  When finding values, it may take longer than the allotted 25 attempts to find the value. On the other hand, with double hashing, this technique attempts to prevent collisions and
+  clustering so finding a value may be easier due to these properties.
+
+3. Justify the worst case complexity of each of your experimental profiling results and compare them to the worst case complexity of the theoretical results for the build times with each of the hashing techniques.
+
+  The worst case complexity for quadratic probing is O(n). This is the case because there could be a collision at every bucket. The program would then have to check every bucket for a possible empty bucket.
+  Double hashing also has a worse case complexity of O(n). This is the case because there could be a collision at every bucket. The program would then have to check every bucket for a possible empty bucket.
