@@ -1,0 +1,7 @@
+./quash < test1.txt
+Starting QUASH - Type 'exit' or 'quit' to stop QUASH
+Quash$ 
+Linux
+
+Quash$ 
+Exiting QUASH

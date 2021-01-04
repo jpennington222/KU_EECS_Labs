@@ -1,0 +1,14 @@
+./quash < command7.txt
+Starting QUASH - Type 'exit' or 'quit' to stop QUASH
+Quash$ 
+MYVAR: (null)
+
+Quash$ 
+Set MYVAR Successfully
+
+Quash$ 
+MYVAR: "NEW_ENV_VAR"
+
+Quash$ 
+Exiting QUASH
+

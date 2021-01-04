@@ -1,0 +1,8 @@
+./quash < test2.txt
+Starting QUASH - Type 'exit' or 'quit' to stop QUASH
+Quash$ 
+Linux jpennington222-VirtualBox 5.4.0-52-generic #57-Ubuntu SMP Thu Oct 15 10:57:00 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+Quash$ 
+Exiting QUASH
+

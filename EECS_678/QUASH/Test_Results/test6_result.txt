@@ -1,0 +1,33 @@
+./quash < bash6.txt
+Starting QUASH - Type 'exit' or 'quit' to stop QUASH
+Quash$ 
+bash6.txt     ls    main.c    NOTES  README.txt  Test7	     Test_Results
+command6.txt  ls.c  Makefile  quash  Test6	 Test_Files
+
+Quash$ 
+Executable not found for export
+
+Quash$ 
+bash6.txt     ls    main.c    NOTES  README.txt  Test7	     Test_Results
+command6.txt  ls.c  Makefile  quash  Test6	 Test_Files
+
+Quash$ 
+Exiting QUASH
+
+
+./quash < command6.txt
+Starting QUASH - Type 'exit' or 'quit' to stop QUASH
+Quash$ 
+bash6.txt     ls    main.c    NOTES  README.txt  Test7	     Test_Results
+command6.txt  ls.c  Makefile  quash  Test6	 Test_Files
+
+Quash$ 
+Set PATH Successfully
+
+Quash$ 
+My Dummy program is run
+
+Quash$ 
+Exiting QUASH
+
+

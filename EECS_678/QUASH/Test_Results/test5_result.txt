@@ -1,0 +1,17 @@
+./quash < test5.txt
+Starting QUASH - Type 'exit' or 'quit' to stop QUASH
+Quash$ 
+No Arguments Given - changed directory to HOME
+
+Quash$ 
+/home/jpennington222
+
+Quash$ 
+Changed Directory to: /usr
+
+Quash$ 
+/usr
+
+Quash$ 
+Exiting QUASH
+
