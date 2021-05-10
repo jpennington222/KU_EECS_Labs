@@ -1,0 +1,166 @@
+1. "MSOKKJCOSXOEEKDTOSLGFWCMCHSUSGX"
+
+key length = 2; firstWordLength = 6
+
+Enter ciphertext: MSOKKJCOSXOEEKDTOSLGFWCMCHSUSGX
+Enter key length: 2
+Enter first word length: 6
+
+
+Starting Timer
+Ending Timer
+Time Elapsed:  0.21900725364685059  seconds
+
+
+All possible plain texts and keys
+[('CAESARSWIFEMUSTBEABOVESUSPICION', 'KS')]
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. "PSPDYLOAFSGFREQKKPOERNIYVSDZSUOVGXSRRIPWERDIPCFSDIQZIASEJVCGXAYBGYXFPSREKFMEXEBIYDGFKREOWGXEQSXSKXGYRRRVMEKFFIPIWJSKFDJMBGCC"
+
+key length = 3; firstWordLength = 7
+
+Enter ciphertext: PSPDYLOAFSGFREQKKPOERNIYVSDZSUOVGXSRRIPWERDIPCFSDIQZIASEJVCGXAYBGYXFPSREKFMEXEBIYDGFKREOWGXEQSXSKXGYRRRVMEKFFIPIWJSKFDJMBGCC
+Enter key length: 3
+Enter first word length: 7
+
+
+Starting Timer
+Ending Timer
+Time Elapsed:  8.548305034637451  seconds
+
+
+All possible plain texts and keys
+[('FORTUNEWHICHHASAGREATDEALOFPOWERINOTHERMATTERSBUTESPECIALLYINWARCANBRINGABOUTGREATCHANGESINASITUATIONTHROUGHVERYSLIGHTFORCES', 'KEY')]
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. "MTZHZEOQKASVBDOWMWMKMNYIIHVWPEXJA"
+
+key length = 4; firstWordLength = 10
+
+Enter ciphertext: MTZHZEOQKASVBDOWMWMKMNYIIHVWPEXJA
+Enter key length: 4
+Enter first word length: 10
+
+
+Starting Timer
+Ending Timer
+Time Elapsed:  205.35800290107727  seconds
+
+
+All possible plain texts and keys
+[('EXPERIENCEISTHETEACHEROFALLTHINGS', 'IWKD')]
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. "SQLIMXEEKSXMDOSBITOTYVECRDXSCRURZYPOHRG"
+
+keyLength=5; firstWordLength = 11
+
+Enter ciphertext: SQLIMXEEKSXMDOSBITOTYVECRDXSCRURZYPOHRG
+Enter key length: 5
+Enter first word length: 11
+
+
+Starting Timer
+Ending Timer
+Time Elapsed:  3950.9282610416412  seconds
+
+
+All possible plain texts and keys
+[('IMAGINATIONISMOREIMPORTANTTHANKNOWLEDGE', 'KELCE')]
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. "LDWMEKPOPSWNOAVBIDHIPCEWAETYRVOAUPSINOVDIEDHCDSELHCCPVHRPOHZUSERSFS"
+
+keyLength=6; firstWordLength = 9
+
+Time Elapsed: 46263.65350174904 seconds (to get 'HACKER')
+Total Time to test all keys: 
+All possible plain texts and keys
+[('EDUCATIONISWHATREMAINSAFTERONEHASFORGOTTENWHATONEHASLEARNEDINSCHOOL', 'HACKER')]
+
+
+Time Elapsed:  166556.8705496788  seconds (to test all keys)
+
+
+All possible plain texts and keys
+[('EDUCATIONISWHATREMAINSAFTERONEHASFORGOTTENWHATONEHASLEARNEDINSCHOOL', 'HACKER')]
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6. "VVVLZWWPBWHZDKBTXLDCGOTGTGRWAQWZSDHEMXLBELUMO"
+
+keyLength=7; firstWordLength = 13
+
+Not tested
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//First Runs
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+========= RESTART: C:/Users/jmp22/OneDrive/Desktop/VigenereCipher.py =========
+Enter ciphertext: SQLIMXEEKSXMDOSBITOTYVECRDXSCRURZYPOHRG
+Enter key length: 5
+Enter first word length: 11
+
+
+Starting Timer
+Ending Timer
+Time Elapsed:  4269.050545454025  seconds
+
+
+All possible plain texts and keys
+[('IMAGINATIONISMOREIMPORTANTTHANKNOWLEDGE', 'KELCE')]
+>>> 
+========= RESTART: C:/Users/jmp22/OneDrive/Desktop/VigenereCipher.py =========
+Enter ciphertext: MSOKKJCOSXOEEKDTOSLGFWCMCHSUSGX
+Enter key length: 2
+Enter first word length: 6
+
+
+Starting Timer
+Ending Timer
+Time Elapsed:  0.24735140800476074  seconds
+
+
+All possible plain texts and keys
+[('CAESARSWIFEMUSTBEABOVESUSPICION', 'KS')]
+>>> 
+========= RESTART: C:/Users/jmp22/OneDrive/Desktop/VigenereCipher.py =========
+Enter ciphertext: PSPDYLOAFSGFREQKKPOERNIYVSDZSUOVGXSRRIPWERDIPCFSDIQZIASEJVCGXAYBGYXFPSREKFMEXEBIYDGFKREOWGXEQSXSKXGYRRRVMEKFFIPIWJSKFDJMBGCC
+Enter key length: 3
+Enter first word length: 7
+
+
+Starting Timer
+Ending Timer
+Time Elapsed:  12.16830849647522  seconds
+
+
+All possible plain texts and keys
+[('FORTUNEWHICHHASAGREATDEALOFPOWERINOTHERMATTERSBUTESPECIALLYINWARCANBRINGABOUTGREATCHANGESINASITUATIONTHROUGHVERYSLIGHTFORCES', 'KEY')]
+>>> 
+========= RESTART: C:/Users/jmp22/OneDrive/Desktop/VigenereCipher.py =========
+Enter ciphertext: MTZHZEOQKASVBDOWMWMKMNYIIHVWPEXJA
+Enter key length: 4
+Enter first word length: 10
+
+
+Starting Timer
+Ending Timer
+Time Elapsed:  276.2968533039093  seconds
+
+
+All possible plain texts and keys
+[('EXPERIENCEISTHETEACHEROFALLTHINGS', 'IWKD')]
+>>> 
